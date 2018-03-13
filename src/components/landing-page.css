@@ -2,8 +2,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
-button {
-  
+.log-in {
+  margin-top: 5px;
+  border: 1px solid black;
+  border-style: none;
+  border-radius: 5%;
+  width: 75px;
+  color: white;
+  background-color: rgb(63, 63, 63);  
 }

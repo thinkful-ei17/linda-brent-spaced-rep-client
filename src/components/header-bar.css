@@ -3,10 +3,14 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  text-align: center;
+}
+
 .header-bar {
   background-color: rgb(45, 45, 45);
   color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
