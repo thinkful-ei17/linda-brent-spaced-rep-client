@@ -18,6 +18,11 @@ export class HeaderBar extends React.Component {
         <a href="#" onClick={() => this.logOut()}>LOG OUT</a>
       );
     }
+    else{
+      logOutButton = (
+        <a href="#" onClick={() => this.logOut()}>SIGN UP</a>
+      );
+    }
     return (
       <div className="header-bar">
         <a href="#">ABOUT</a>
