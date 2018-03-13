@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect, } from 'react-redux';
+import { Link, } from 'react-router-dom';
 import './header-bar.css';
 import { clearAuth, } from '../actions/auth';
 import { clearAuthToken, } from '../local-storage';
@@ -20,7 +21,7 @@ export class HeaderBar extends React.Component {
     }
     else{
       logOutButton = (
-        <a href="#" onClick={() => this.logOut()}>SIGN UP</a>
+        <Link to="/register">SIGN UP</Link>
       );
     }
     return (
