@@ -26,10 +26,10 @@ export class HeaderBar extends React.Component {
     }
     return (
       <div className="header-bar">
-        <a href="#">ABOUT</a>
-        <a href="#">FAQ</a>
+        <a href="#about">ABOUT</a>
+        <a href="#faq">FAQ</a>
         <h1>Front-end learning app</h1>
-        <a href="#">CONTACT</a>
+        <a href="#contact">CONTACT</a>
         {logOutButton}
       </div>
     );
