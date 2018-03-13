@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect, } from 'react-redux';
+import './header-bar.css';
 import { clearAuth, } from '../actions/auth';
 import { clearAuthToken, } from '../local-storage';
 
@@ -19,7 +20,8 @@ export class HeaderBar extends React.Component {
     }
     return (
       <div className="header-bar">
-        <h1>Foo App</h1>
+        <a href="#">help</a>
+        <h1>Front-end learning app</h1>
         {logOutButton}
       </div>
     );
