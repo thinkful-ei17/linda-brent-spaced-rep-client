@@ -7,7 +7,8 @@ const initialState = {
   data: '',
   error: null,
 };
-
+// Convert to switch statement for readability.
+// Convert to spead operator instead of Object.assign.
 export default function reducer (state = initialState, action) {
   if (action.type === FETCH_PROTECTED_DATA_SUCCESS) {
     return Object.assign({}, state, {
